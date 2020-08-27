@@ -1,6 +1,10 @@
 name: 'Swift Playgrounds'
 description: 'Run all Swift Playgrounds in the repo'
-author: ''
+author: 'Henrik Storch <@thisisthefoxe>'
+
+branding:
+  color: 'orange'
+  icon: 'play'
 
 runs:
   using: "composite"
