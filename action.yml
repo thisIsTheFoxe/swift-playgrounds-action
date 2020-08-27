@@ -1,0 +1,11 @@
+name: 'Swift Playgrounds'
+description: 'Run all Swift Playgrounds in the repo'
+author: ''
+
+runs:
+  using: "composite"
+  
+  steps:
+    - id: run-swift-files
+      run: for file in **/Contents.swift; do swift -v $file; done;
+      shell: zsh
