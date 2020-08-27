@@ -7,5 +7,5 @@ runs:
   
   steps:
     - id: run-swift-files
-      run: for file in **/Contents.swift; do swift -v $file; done;
+      run: ${{ github.action_path }}/pg.sh
       shell: bash
