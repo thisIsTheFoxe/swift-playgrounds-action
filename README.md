@@ -1,5 +1,6 @@
 # Swift Playgrounds Action
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-v1-undefined.svg?logo=github&logoColor=white&style=flat)](https://github.com/marketplace/actions/swift-playgrounds)
+[![Playgrounds CI](https://github.com/thisIsTheFoxe/swift-playgrounds-action/workflows/Playgrounds%20CI/badge.svg)](https://github.com/thisIsTheFoxe/swift-playgrounds-action/actions)
 
 A simple GitHub action to run Swift Playgrounds.
 
