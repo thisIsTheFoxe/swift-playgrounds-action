@@ -1,5 +1,5 @@
 name: 'Swift Playgrounds'
-description: 'Run all Swift Playgrounds in the repo'
+description: 'Run all Swift Playgrounds in a repository'
 author: 'Henrik Storch <@thisisthefoxe>'
 
 branding:
@@ -10,6 +10,6 @@ runs:
   using: "composite"
   
   steps:
-    - id: run-swift-files
+    - id: run-playgrounds
       run: ${{ github.action_path }}/pg.sh
       shell: bash
